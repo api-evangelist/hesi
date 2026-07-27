@@ -1,8 +1,28 @@
 aid: hesi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hesi.png
 name: Hesi
-description: 'Hesi is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Hesi (合思, operated by Beijing Hosi Information Technology Co., Ltd.) is an
+  AI-driven spend and expense management SaaS platform founded in 2014 and
+  backed by the SoftBank Vision Fund. Its cloud platform covers intelligent
+  expense control and reimbursement ("no expense reports needed"), corporate
+  business-travel booking, AI-powered audit and approval, electronic accounting
+  archives, accounts payable/receivable, and business-intelligence analytics.
+  Hesi serves 7,000+ paid enterprises — including large corporations and Fortune
+  500 firms across China — and runs a PaaS platform with integrations to roughly
+  1,400 banks. The company operates R&D centers in Beijing, Hangzhou, and
+  Nanchang with 22 direct service offices nationwide.
 url: https://raw.githubusercontent.com/api-evangelist/hesi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Expense Management
+- Spend Management
+- Finance
+- SaaS
+- Fintech
+- Business Travel
+- Reimbursement
+- China
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hesi-domain-security.yml
+- type: Website
+  url: https://www.ekuaibao.com/
+- type: About
+  url: https://www.ekuaibao.com/about.html
+- type: Blog
+  url: https://www.ekuaibao.com/news.html
+- type: SignUp
+  url: https://www.ekuaibao.com/register.html
+- type: Login
+  url: https://app.ekuaibao.com/web/app.html#/login
+- type: PrivacyPolicy
+  url: https://www.ekuaibao.com/website-static/user-policy.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
